@@ -5,21 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Strive Enterprise</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
 
-    <!--Header superior-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><i class="fas fa-star">Hola</i></div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
-        </div>
-    </div>
-    <!--Header superior-->
+    <!--NavBar-->
+    <nav class="py-2 bg-primary">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white"
+              ><i class="fas fa-phone-alt mx-auto p-1"></i>(12) 345 67 89</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white"
+              ><i class="fas fa-envelope mx-auto p-1"></i>email@email.com</a
+            >
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white"
+              ><i class="fab fa-youtube mx-auto p-1"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white"
+              ><i class="fab fa-instagram mx-auto p-1"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-white"
+              ><i class="fab fa-facebook-f mx-auto p-1"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--NavBar-->
+    <!--Header-->
+    <div id="header">
+      <header class="container d-flex flex-wrap justify-content-center py-5">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
+        >
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            viewBox="0 0 48 48"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+            transform="rotate(45)"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <defs>
+                <style>
+                  .a {
+                    fill: none;
+                    stroke: #fff;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                  }
+                </style>
+              </defs>
+              <path
+                class="a"
+                d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"
+              ></path>
+              <path class="a" d="M30.5,17.5h-13v13h13Z"></path>
+            </g>
+          </svg>
+          <span class="fs-4">University</span>
+        </a>
 
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">About Us</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+      </header>
+    </div>
+    <!--Header-->
+    <!--Hero-->
+    <div class="hero-video">
+      <video loop muted id="hero-video">
+        <source src="../src/assets/video/hero-video.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="text-start col-md-6">
+            <h2>Welcome a the University</h2>
+            <hr class="border border-warning border-2 opacity-75 w-50">
+            <h1 class="display-3">We are an online</h1>
+            <h1 class="display-5">plataform to make learning</h1>
+            <button class="btn btn-warning btn-lg rounded-pill text-white mt-3 border border-white border-2">Get Now</button> 
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--Hero-->
+   
+
+     <div class="loco">
+        dsadasdas
+     </div>
+     
+ 
+    
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

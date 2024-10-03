@@ -1,0 +1,103 @@
+/* Estilo del header (transparente) */
+#header {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0); /* Transparente al inicio */
+    transition: background-color 0.3s ease; /* Transición suave */
+    z-index: 100; /* Header por encima del contenido */
+  }
+  
+  /* Estilo del header al hacer scroll */
+  #header.scrolled {
+    background-color: #02557d; /* Cambia color al hacer scroll */
+    top: 0px;    
+  }
+
+  /* Estilo del texto dentro del header */
+#header a, #header span, #header p {
+    color: #fff; /* Color original del texto */
+    transition: color 0.3s ease; /* Transición suave */
+  }
+  
+  /* Estilo del texto dentro del header al hacer scroll */
+  #header.scrolled a, #header.scrolled span, #header.scrolled p {
+    color: #fff; /* Cambia color del texto a blanco */
+  }
+
+  /* Estilo del icono SVG dentro del header */
+#header svg path {
+    stroke: #fff; /* Color original del icono SVG */
+    transition: stroke 0.3s ease; /* Transición suave */
+  }
+  
+  /* Estilo del icono SVG dentro del header al hacer scroll */
+  #header.scrolled svg path {
+    stroke: #fff; /* Cambia color del icono SVG a blanco */
+  }
+  
+  .content {
+    padding-top: 70px; /* Evitar que el contenido se oculte por el header */
+  }
+
+  .nav-superior {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Posiciona el nav superior encima del hero */
+  }
+  
+  .header {
+    position: sticky;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 900; /* Posiciona el header encima del hero */
+  }
+  
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Ajusta el alto del hero */
+    overflow: hidden;
+    z-index: -1; /* Posiciona el hero detrás del nav superior y del header */
+    display: flex; /* Agrega display flex para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+  }
+  
+  #hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #02557d;
+  opacity: 0.5; /* Ajusta la opacidad del overlay */
+}
+  
+  .container {
+    position: relative;
+    z-index: 800; /* Asegura que el contenido esté encima del video */
+    color: #fff; /* Ajusta el color del texto */
+    text-align: center;
+  }
+  
+  /* Ajusta la posición del hero para que se encuentre detrás de los demás elementos */
+  .hero-video {
+    transform: translateZ(-1px);
+  }
+
+  
