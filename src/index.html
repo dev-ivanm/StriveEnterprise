@@ -13,8 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body>
-
+  <div>
     <!--NavBar-->
     <nav class="py-2 bg-primary">
       <div class="container d-flex flex-wrap">
@@ -57,40 +56,7 @@
           href="/"
           class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
         >
-          <svg
-            class="bi me-2"
-            width="40"
-            height="32"
-            viewBox="0 0 48 48"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#000000"
-            transform="rotate(45)"
-          >
-            <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <defs>
-                <style>
-                  .a {
-                    fill: none;
-                    stroke: #fff;
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                  }
-                </style>
-              </defs>
-              <path
-                class="a"
-                d="M40.5,5.5H7.5a2,2,0,0,0-2,2v33a2,2,0,0,0,2,2h33a2,2,0,0,0,2-2V7.5A2,2,0,0,0,40.5,5.5Z"
-              ></path>
-              <path class="a" d="M30.5,17.5h-13v13h13Z"></path>
-            </g>
-          </svg>
-          <span class="fs-4">University</span>
+          <img class="logo" src="./assets/images/LOGO.png" alt="" />
         </a>
 
         <ul class="nav">
@@ -105,45 +71,355 @@
     </div>
     <!--Header-->
     <!--Hero-->
+    <div class="container ctn">
+      <div class="row">
+        <div class="col px-5 align-content-center">
+          <h2>Welcome a the University</h2>
+          <hr class="border border-warning border-2 opacity-75 w-50" />
+          <h1 class="display-3">We are an online</h1>
+          <h1 class="display-6">plataform to make learning</h1>
+          <button
+            class="btn btn-warning btn-lg rounded-pill text-white mt-3 border border-white border-2 px-5"
+          >
+            Get Now
+          </button>
+        </div>
+        <div class="col px-5 text-center">
+          <div class="card mb-3" style="max-width: 24rem">
+            <div
+              class="card-header border-bottom border-warning border-4 text-bg-primary"
+            >
+              <h5>Register Now!</h5>
+            </div>
+            <div class="card-body">
+              <form class="text-start">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control pill bg-dark-subtle rounded-pill"
+                    id="name"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <input
+                      type="email"
+                      class="form-control pill bg-dark-subtle rounded-pill"
+                      id="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <input
+                      type="tel"
+                      class="form-control pill bg-dark-subtle rounded-pill"
+                      id="exampleInputPhone1"
+                      placeholder="Phone"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="tetx"
+                    class="form-control pill bg-dark-subtle rounded-pill"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <textarea
+                  class="form-control area bg-dark-subtle"
+                  rows="3"
+                  id="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+
+                <button
+                  type="submit"
+                  class="btn btn-warning btn-md rounded-pill text-white mt-3 border border-white border-2 px-5"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="hero-video">
       <video loop muted id="hero-video">
         <source src="../src/assets/video/hero-video.mp4" type="video/mp4" />
       </video>
       <div class="overlay"></div>
-      <div class="container">
-        <div class="row">
-          <div class="text-start col-md-6">
-            <h2>Welcome a the University</h2>
-            <hr class="border border-warning border-2 opacity-75 w-50">
-            <h1 class="display-3">We are an online</h1>
-            <h1 class="display-5">plataform to make learning</h1>
-            <button class="btn btn-warning btn-lg rounded-pill text-white mt-3 border border-white border-2">Get Now</button> 
+    </div>
+    <!--Hero-->
+
+    <!--knowThis-->
+    <div class="container d-flex flex-column py-2">
+      <p class="h4"><spam class="text-warning"> • </spam>The most popular</p>
+      <hr class="my-1 border border-warning border-2 opacity-75 w-25 /" />
+      <p class="h2">know what we offer you</p>
+      <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
+        <div class="col">
+          <div class="card h-100 shadow">
+            <div class="position-relative">
+              <img
+                src="../src/assets/images/IMAGE_CURSO 1.jpg"
+                class="card-img-top doble"
+                alt="Image"
+              />
+              <span
+                class="badge text-bg-light position-absolute bottom-0 start-0 m-2 mb-3"
+                >New</span
+              >
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                Design for the web with adobe photoshop
+              </h5>
+              <button
+                class="btn btn-warning btn-md rounded-pill text-white mt-3 border border-white border-2 px-5"
+              >
+                Read more
+              </button>
+            </div>
           </div>
-          <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
-              </div>
-              <div class="form-group">
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img
+              src="../src/assets/images/IMAGE_CURSO 2.jpg"
+              class="card-img-top doble"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                Design for the web with adobe photoshop
+              </h5>
+              <button
+                class="btn btn-warning btn-md rounded-pill text-white mt-3 border border-white border-2 px-5"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img
+              src="../src/assets/images/IMAGE_CURSO 3.jpg"
+              class="card-img-top doble"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                Design for the web with adobe photoshop
+              </h5>
+              <button
+                class="btn btn-warning btn-md rounded-pill text-white mt-3 border border-white border-2 px-5"
+              >
+                Read more
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow">
+            <img
+              src="../src/assets/images/IMAGE_CURSO 4.jpg"
+              class="card-img-top doble"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">
+                Design for the web with adobe photoshop
+              </h5>
+              <button
+                class="btn btn-warning btn-md rounded-pill text-white mt-3 border border-white border-2 px-5"
+              >
+                Read more
+              </button>
+            </div>
           </div>
         </div>
       </div>
+      <button
+        type="submit"
+        class="btn btn-lg rounded-pill mt-3 px-5 w-25 mx-auto btn-hover"
+      >
+        View more
+      </button>
     </div>
-     <!--Hero-->
-   
 
-     <div class="loco">
-        dsadasdas
-     </div>
-     
- 
+    <!--About-->
+    <div class="bg-primary mt-5">
+      <div class="container d-flex flex-column py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="h4 text-white"><spam class="text-white"> • </spam>About Us</p>
+              <hr class="my-1 border border-white border-2 opacity-75 w-25 /" />
+              <p class="h2 text-white">know everything we do for you</p>
+            <p class="text-white lead py-5" >The university is a physical place, buildings, laboratories, libraries .. where students and teachers meet. The university is also a human-social system, that is, a set of elements that are related and interact with each other.</p>
+            <button
+        type="submit"
+        class="btn btn-warning btn-lg rounded-pill text-white mt-3 border border-white border-2 px-5"
+      >
+        Read more
+      </button>
+            </div>
+            <div class="flex py-5 col">
+              <img class="mx-auto about rounded" src="../src/assets/images/IMAGE ABOUT US.png" alt="">
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+  <!--Benefit-->
+  <div class="bgurl">
     
+    <div class="container d-flex flex-column py-2 px-lg-5">    
+      <div class="row row-cols-1 row-cols-md-4 g-5 py-5 w-75 mx-auto">
+        <div class="col text-center">
+          <figure class="figure">
+            <img src="../src/assets/images/ICONO 1.png" class="figure-img img-fluid rounded" alt="benefit">
+            <figcaption class="figure-caption text-center text-white fs-5 fw-bolder">Excellent Content</figcaption>
+          </figure>
+        </div>
+        <div class="col text-center">
+          <figure class="figure">
+            <img src="../src/assets/images/ICONO 2.png" class="figure-img img-fluid rounded" alt="benefit">
+            <figcaption class="figure-caption text-center text-white fs-5 fw-bolder">Experts Instructors</figcaption>
+          </figure>
+        </div>
+        <div class="col text-center">
+          <figure class="figure">
+            <img src="../src/assets/images/ICONO 3.png" class="figure-img img-fluid rounded" alt="benefit">
+            <figcaption class="figure-caption text-center text-white fs-5 fw-bolder">The Best Professionals</figcaption>
+          </figure>
+        </div>
+        <div class="col text-center">
+          <figure class="figure">
+            <img src="../src/assets/images/ICONO 4.png" class="figure-img img-fluid rounded" alt="benefit">
+            <figcaption class="figure-caption text-center text-white fs-5 fw-bolder">Countless Courses</figcaption>
+          </figure>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+
+  <!--Career-->
+  <div class="container d-flex flex-column py-2 mt-5">
+    <p class="h4"><spam class="text-warning"> • </spam>Study careers</p>
+    <hr class="my-1 border border-warning border-2 opacity-75 w-25 /" />
+    <p class="h2">Explore the different careers we offer</p>
+    <div class="container ctn2">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7"><div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem; height: 20rem;">
+              <div class="card-body rounded cbg1">
+                <h5 class="card-titlec text-white fw-semibold">Administration</h5>           
+<button
+        type="submit"
+        class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+      >
+        Explore
+      </button>
+              </div>
+            </div>
+          </div>
+            <div class="col">
+              <div class="card" style="width: 18rem; height: 20rem;">
+                <div class="card-body rounded cbg2">
+                  <h5 class="card-titlec text-white fw-semibold">Accounting</h5>           
+  <button
+          type="submit"
+          class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+        >
+          Explore
+        </button>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col py-3">
+              <div class="card" style="width: 38rem; height: 10rem;">
+                <div class="card-body rounded cbg3">
+                  <h5 class="card-titlec text-white fw-semibold">Architecture</h5>           
+  <button
+          type="submit"
+          class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+        >
+          Explore
+        </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 "><div class="container">
+          <div class="row">
+            <div class="col"><div class="card" style="width: 27rem; height: 10rem;">
+              <div class="card-body rounded cbg4">
+                <h5 class="card-titlec text-white fw-semibold">Mathematics</h5>           
+<button
+        type="submit"
+        class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+      >
+        Explore
+      </button>
+              </div>
+            </div></div>
+          </div>
+          <div class="row">
+            <div class="col py-2"><div class="card" style="width: 27rem; height: 10rem;">
+              <div class="card-body rounded cbg5">
+                <h5 class="card-titlec text-white fw-semibold">Programming</h5>           
+<button
+        type="submit"
+        class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+      >
+        Explore
+      </button>
+              </div>
+            </div></div>
+          </div>
+          <div class="row">
+            <div class="col"><div class="card" style="width: 27rem; height: 10rem;">
+              <div class="card-body rounded cbg6">
+                <h5 class="card-titlec text-white fw-semibold">Biology</h5>           
+<button
+        type="submit"
+        class="btn btnc btn-warning btn-sm rounded-pill text-white fw-semibold mt-3 border border-white border-2 px-3"
+      >
+        Explore
+      </button>
+              </div>
+            </div></div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+    <button
+      type="submit"
+      class="btn btn-lg rounded-pill mt-5 px-5 w-25 mx-auto btn-hover"
+    >
+      View more
+    </button>
+  </div>
+  
+  
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
