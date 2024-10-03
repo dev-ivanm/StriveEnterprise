@@ -152,7 +152,7 @@
 .bgurl{
   //width: 100%;
   height: 300px;
-  background-image: url('/src/assets/images/BACKGROUND BENEFITS.png');
+  background-image: url('~/../assets/images/BACKGROUND BENEFITS.png');
   background-size: cover;  
   background-repeat: no-repeat;
 }
@@ -172,40 +172,40 @@
 }
 
 .cbg1{
-  background-image: url('/src/assets/images/IMAGECATEGORYADMINISTRATION.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYADMINISTRATION.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
 }
 
 .cbg2{
-  background-image: url('/src/assets/images/IMAGECATEGORYACCOUNTING.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYACCOUNTING.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
 }
 
 .cbg3{
-  background-image: url('/src/assets/images/IMAGECATEGORYARCHITECTURE.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYARCHITECTURE.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
   
 }
 
 .cbg4{
-  background-image: url('/src/assets/images/IMAGECATEGORYMATHEMATICS.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYMATHEMATICS.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
   
 }
 
 .cbg5{
-  background-image: url('/src/assets/images/IMAGECATEGORYPROGRAMMING.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYPROGRAMMING.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
   
 }
 
 .cbg6{
-  background-image: url('/src/assets/images/IMAGECATEGORYBIOLOGY.jpg');
+  background-image: url('~/../assets/images/IMAGECATEGORYBIOLOGY.jpg');
   background-size: cover;  
   background-repeat: no-repeat;
   
